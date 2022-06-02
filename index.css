@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2em;
+    background-color: #1b494d
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 2.5em
+    
+}
+
+.hex-input-text {
+    display: block;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: .3em
+}
+
+.hex-input {
+    padding: .4em .8em;
+    font-size: 1.2em;
+    color: #1b494d;
+    border-radius: .4em;
+    border: none;
+    margin-bottom: .8em;
+}
+
+.toggle {
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: .8em;
+}
+
+.toggle-btn {
+    height: 1.5em;
+    width: 3em;
+    background-color: white;
+    margin: 0 .5em;
+    border-radius: 1.5em;
+    padding: .2em
+}
+
+.inner-circle {
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
+    background-color: #81AFB3;
+    transition: all 250ms;
+}
+
+.toggle-btn.toggled > .inner-circle {
+    transform: translateX(1.5em);
+    background-color: #1b494d;
+}
+
+.slider-text {
+    display: block;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: .2em;
+}
+
+input [type="range"] {
+    background-color: #1b494d;
+}
+
+.input-color-text, .altered-color-text {
+    margin-top: .8em;
+    margin-bottom: .4em;
+    font-size: 1.5em;
+    color: white;
+}
+
+.box {
+    width: full;
+    height: 10em;
+    background-color: #81AFB3;
+    border-radius: 1em;
+}
+
+.unselected {
+    opacity: .25;
+}
